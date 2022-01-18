@@ -27,7 +27,7 @@ const prayersEnum = {
 }
 
 // Server instance
-app.listen(port, function() {
+app.listen(config.port, function() {
     console.log("====================");
     // getTimes();
 });
