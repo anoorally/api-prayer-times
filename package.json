@@ -20,5 +20,8 @@
     "express": "^4.17.2",
     "moment": "^2.29.1",
     "prayer-times.js": "^1.6.9"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
