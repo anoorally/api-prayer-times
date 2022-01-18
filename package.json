@@ -1,0 +1,24 @@
+{
+  "name": "api-prayer-times",
+  "version": "1.0.0",
+  "description": "PrayerTimes API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoorally/api-prayer-times.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoorally/api-prayer-times/issues"
+  },
+  "homepage": "https://github.com/anoorally/api-prayer-times#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "prayer-times.js": "^1.6.9"
+  }
+}
