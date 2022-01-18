@@ -7,7 +7,7 @@ let prayTimes = new PrayerManager();
 var moment = require('moment'); // require
 
 const config = {
-    port: 80,
+    port: 7777,
     coordinates: [43.7417, -79.3733],
     timeZone: -5,
     dst: 0,
