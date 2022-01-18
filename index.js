@@ -7,7 +7,7 @@ let prayTimes = new PrayerManager();
 var moment = require('moment'); // require
 
 const config = {
-    port: 80,
+    port: process.env.PORT || 80,
     coordinates: [43.7417, -79.3733],
     timeZone: -5,
     dst: 0,
@@ -26,7 +26,8 @@ const prayersEnum = {
     midnight: 8
 }
 
-app.listen(config.port, () => {
+// Server instance
+app.listen(config.port, function() {
     console.log("====================");
     // getTimes();
 });
