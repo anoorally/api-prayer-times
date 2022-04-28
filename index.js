@@ -10,7 +10,7 @@ const config = {
     port: process.env.PORT || 80,
     coordinates: [43.7417, -79.3733],
     timeZone: -5,
-    dst: 0,
+    dst: 'auto',
     format: '12h'
 }
 
