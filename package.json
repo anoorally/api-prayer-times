@@ -19,7 +19,7 @@
   "homepage": "https://github.com/anoorally/api-prayer-times#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "moment": "^2.29.1",
+    "moment": "^2.29.",
     "prayer-times.js": "^1.6.9"
   },
   "engines": {
